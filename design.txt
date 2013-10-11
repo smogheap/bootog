@@ -1,0 +1,72 @@
+BOOTOG
+======
+
+Bootog is a side-scrolling platform action game.  The titular protagonist has
+suction cup feet for walking up walls and ceilings, and fights his enemies by
+gulping them up.  He can then spit them out in goo form, and the goo acts and
+reacts differently depending on what kind of enemy it was.
+
+Bootog can be compared with Kirby games, though the style is more "grumpy"
+than "cute".  Where Kirby can float and transform, Bootog instead has wall-
+walking and goo mechanics.  The focus on one small challenge at a time and a
+rapid death/retry cycle might be compared to Super Meat Boy.  Some gameplay
+elements evoke a Bubble Bobble feeling.
+
+
+Actions
+-------
+
+Walk: < ^ v >
+  Bootog will walk in any direction, including up walls and on ceilings.
+
+Jump: Space
+  Bootog will jump, which will make him fall off any non-floor surface.
+
+Gulp: Ctrl/Alt
+  Bootog will gulp up an enemy in front of himself and quickly turn it to goo.
+
+Spit: Ctrl/Alt
+  When Bootog has enemy goo in his mouth, he will spit it out.
+
+Bootog supports any and all input devices - keyboard, joystick, wiimote, that
+wacky new Steam controller, anything.  Bindings are easy to change.  The
+default key controls are meant to be straightforward (and X-Arcade ready).
+
+
+Modes
+-----
+
+Easy:   Bootog can't be killed.  Toddler mode.
+Normal: Checkpoints everywhere.  Die and try again.
+Hard:   No checkpoints.  Die and restart the level.
+Insane: No checkpoints, one life.  Die and restart the game.
+
+
+Gameplay
+--------
+
+Bootog's world is a bit brutal.  Many things will kill him instantly, even his
+own actions at times.  Walking up a wall and spitting out fiery or acidic goo
+will burn himself to death once gravity takes over, unless he can get out of
+the way.  Fortunately, there are checkpoints everywhere.
+
+Experimentation is encouraged; there are always several ways to tackle a
+problem, overcome an obstacle, or defeat an enemy.  There are also many ways
+to get killed, but that's what all those checkpoints are for.
+
+
+Enemy and Goo Types
+-------------------
+
+Sticky: Bugs, Slugs, Paste Items
+Slippery: Fish, Snakes, Oil Items
+Freezy: Ices, Snowflakes, Frost Items
+Fiery: Flames, Sunbeams, Toast Items
+Acid: Thorns, Flowers, Battery Items
+Heavy: Pigs, Rocks, Ore Items
+Floaty: Clouds, Vapors, Balloon Items
+
+
+Technology
+----------
+SDL2?
